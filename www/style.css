@@ -1,0 +1,86 @@
+/* overide shiny.css table css  */
+#header_logo{
+	background: url('beta_logo.png') no-repeat left top;
+	width: 325px;
+	height: 40px;
+}
+table.data {
+	width: auto;
+	border: none;
+}
+table.data td[align=right] {
+	font-family: monospace;
+	text-align: right;
+	border: none;
+}
+#countsdiv{
+	margin-bottom: 3.2em;
+	padding-bottom: 1em;
+}
+/* nav panel audit and specialists count */
+#side_countsdiv{margin-top: 25px;}
+#side_totalaudits_label{
+	float: left;
+	font-weight: bold;
+	clear: both;
+	margin-right: 3px;
+}
+#side_uniquespecialist_label{
+	float: left;
+	font-weight: bold;
+	clear: both;
+	margin-right: 3px;
+}
+#side_totalaudits_div{}
+#side_uniquespecialist_div{margin: 0px 0px 0px 0px;clear: both;}
+#side_totalaudits_output{}
+#side_uniquespecialist_output{}
+/* end nav panel audit and specialists count */
+
+/* borrowed bs alert class */
+#score_describe{
+	clear: both;
+}
+#duration_describe{
+	clear: both;
+}
+#auditsCount{
+	padding:8px 35px 8px 14px; 
+	margin: 0px 8px 0px 0px; 
+	margin-bottom:20px;
+	text-shadow:0 1px 0 rgba255,255,255,0.5;
+	background-color: #aed3da;
+	border:1px solid;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	width: 160px;
+	color:#3a87ad;
+	background-color:#d9edf7;
+	border-color:#bce8f1;
+	float: left;
+	font: bold 1em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}     
+#specialistCount{
+	padding:8px 35px 8px 14px;
+	margin: 0px 8px 0px 0px;
+	margin-bottom:20px;
+	text-shadow:0 1px 0 rgba255,255,255,0.5;
+	background-color: #aed3da;
+	border:1px solid;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	color:#3a87ad;
+	background-color:#d9edf7;
+	border-color:#bce8f1;
+	float: left;
+	font: bold 1em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+footer{position: fixed;
+	bottom: 1.5%; left: 1.5%;
+	padding: 3 px;
+	font: .7em/1em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	
+}
